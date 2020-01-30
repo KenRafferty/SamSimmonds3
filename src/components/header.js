@@ -35,10 +35,10 @@ const Header = ({ siteTitle }) => (
             <Link className={headerStlyes.navItem} activeClassName={headerStlyes.activeNavItem} to="/">Home</Link> 
             </li>
           <li>
-            <Link className={headerStlyes.navItem} activeClassName={headerStlyes.activeNavItem} to="/page-2">Venue</Link> 
+            <Link className={headerStlyes.navItem} activeClassName={headerStlyes.activeNavItem} to="/venue">Venue</Link> 
             </li>
             <li>
-            <Link className={headerStlyes.navItem} activeClassName={headerStlyes.activeNavItem} to="/">Sponsors</Link> 
+            <Link className={headerStlyes.navItem} activeClassName={headerStlyes.activeNavItem} to="/sponsor">Sponsors</Link> 
             </li>
 
           </ul>
