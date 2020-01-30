@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import headerStlyes from './header.module.scss'
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -27,6 +29,20 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <nav>
+        <ul className={headerStlyes.navList}>
+           <li>
+            <Link className={headerStlyes.navItem} activeClassName={headerStlyes.activeNavItem} to="/">Home</Link> 
+            </li>
+          <li>
+            <Link className={headerStlyes.navItem} activeClassName={headerStlyes.activeNavItem} to="/page-2">Venue</Link> 
+            </li>
+            <li>
+            <Link className={headerStlyes.navItem} activeClassName={headerStlyes.activeNavItem} to="/">Sponsors</Link> 
+            </li>
+
+          </ul>
+      </nav>
     </div>
   </header>
 )

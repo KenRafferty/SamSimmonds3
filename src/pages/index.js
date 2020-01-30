@@ -24,7 +24,6 @@ const IndexPage = () => (
       <li>Coffee 15:30-1600</li>
       <li>Consultant meeting 16:00-17:00   and registrar quiz.</li>
       <li>Dinner 19:00</li>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
